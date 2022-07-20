@@ -223,6 +223,10 @@ hr {
     display: flex;
     justify-content: space-between;
     padding: 0px 20% 10% 20%;
+}
+
+.contac-and-other-info a {
+    text-decoration: none;
     color: #B9B9B9;
 }
 
@@ -240,7 +244,7 @@ hr {
 
 @media screen and (min-width:689px) and (max-width:992px) {
     body {
-        width: 100%;
+        width: 93%;
         height: auto;
     }
 
@@ -279,7 +283,7 @@ hr {
     .watch-live-view-all-button {
         display: flex;
         justify-content: center;
-        margin: 0% 40%;
+        /* margin: 0% 40%; */
     }
 
     /* footer */
@@ -356,5 +360,16 @@ hr {
     .contac-and-other-info {
         display: flex;
         flex-direction: column;
+    }
+
+    /* ------------------page-2-------------- */
+    .button-and-time {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all-match-time {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
