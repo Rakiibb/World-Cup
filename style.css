@@ -61,6 +61,10 @@ body {
     margin-bottom: 5%;
 }
 
+.text a:hover {
+    font-size: 1.2em;
+}
+
 .header-img img {
     width: 100%;
 }
@@ -94,23 +98,35 @@ body {
 
 }
 
+.button:hover {
+    color: white;
+    font-size: 1.2em;
+    background-color: #DD0000;
+}
+
 .button-blog {
     color: white;
     background-color: #DD0000;
 }
+
+/* single blog  */
 
 .match-blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-/* single blog  */
 .blog {
     display: flex;
     flex-direction: column;
     margin: 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 8px #8888882c;
+    padding: 5%;
+}
+
+.blog:hover {
+    padding: 0%;
 }
 
 .blog-text {
@@ -152,15 +168,6 @@ body {
 /*--------------------------------------------------------------------------
 ********************************2nd website*********************************
 ---------------------------------------------------------------------------  */
-.button-match {
-    color: white;
-    background-color: #DD0000;
-}
-
-.button-blog {
-    color: black;
-    background-color: white;
-}
 
 /*-------------
  match time 
@@ -203,6 +210,11 @@ body {
     color: #4D4D4D;
 }
 
+/*--------------------------------------------------------------------------
+********************************2nd website finish*********************************
+---------------------------------------------------------------------------  */
+
+
 /*---------------
      footer
 ----------= */
@@ -240,9 +252,8 @@ hr {
 
 
 
-/***********
-        For Tab 
- **************/
+
+/* ----------------------------- For Tablate ----------------------- */
 
 
 
@@ -252,6 +263,9 @@ hr {
         height: auto;
     }
 
+    /*------------------------------------------------
+ Website 1st part-----The Greatest show on the earth
+------------------------------------------------------- */
     .header {
         display: flex;
     }
@@ -263,6 +277,10 @@ hr {
     .text h1 {
         font-size: 2.5em;
     }
+
+    /*--------------------------------------------------------
+ Website 2nd part. Match blog and others button. and blogs
+----------------------------------------------------------- */
 
     .match-button-and-detels {
         display: flex;
@@ -291,7 +309,9 @@ hr {
         margin-top: 5%;
     }
 
-    /* footer */
+    /*--------------------------------------------------------
+       Footer
+----------------------------------------------------------- */
 
     .contac-and-other-info {
         display: flex;
@@ -303,7 +323,8 @@ hr {
         margin: 1.5% 4%;
     }
 
-    /******* page-2, Tav virson ********/
+    /******************************************* page-2, Tav virson ********************************/
+
     .button-and-time {
         display: flex;
         flex-direction: column;
@@ -320,9 +341,7 @@ hr {
 }
 
 
-/*************
- For Mobile 
- ****************/
+/* ----------------------------- For Mobile ----------------------- */
 
 @media screen and (max-width: 688px) {
     body {
@@ -330,6 +349,9 @@ hr {
         height: auto;
     }
 
+    /*------------------------------------------------
+ Website 1st part-----The Greatest show on the earth
+------------------------------------------------------- */
     .header {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -345,6 +367,9 @@ hr {
         margin: 0%;
     }
 
+    /*--------------------------------------------------------
+ Website 2nd part. Match blog and others button. and blogs
+----------------------------------------------------------- */
     .all-button {
         background-color: white;
     }
@@ -367,6 +392,10 @@ hr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /*--------------------------------------------------------
+       Footer
+----------------------------------------------------------- */
 
     footer h1 {
         display: flex;
