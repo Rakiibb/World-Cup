@@ -7,10 +7,14 @@
  Thats code which is use full website 
 ------------------------------------- */
 body {
-    width: 1600px;
-    margin: 140px;
+    width: 90%;
+    margin: 5%;
     padding: 1%;
     font-family: 'Poppins';
+}
+
+.image {
+    width: 100%;
 }
 
 /*------------------------------------------------
@@ -29,7 +33,7 @@ body {
 
 .text {
     color: white;
-    margin-left: 106px;
+    margin-left: 10%;
 }
 
 .text h1 {
@@ -281,9 +285,10 @@ hr {
     }
 
     .watch-live-view-all-button {
-        display: flex;
+        display: inline-block;
         justify-content: center;
-        /* margin: 0% 40%; */
+        margin: 0% 40%;
+        margin-top: 5%;
     }
 
     /* footer */
@@ -309,8 +314,8 @@ hr {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .watch-live-view-all-button {
-        margin-top: 40px;
+    .match-blogs a {
+        margin: 0px 40%;
     }
 }
 
@@ -326,8 +331,9 @@ hr {
     }
 
     .header {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
 
     .text {
@@ -337,6 +343,15 @@ hr {
     .text h1 {
         font-size: 1.5em;
         margin: 0%;
+    }
+
+    .all-button {
+        background-color: white;
+    }
+
+    .button {
+        border: 1px solid black;
+        margin: 5%;
     }
 
     .header-img img {
